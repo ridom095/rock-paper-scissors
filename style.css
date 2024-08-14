@@ -1,0 +1,47 @@
+.rps:hover{
+	text-shadow: 0px 0px 10px white;
+	transition: 0.8s;
+	font-size: 2.04em;
+}
+.rps:not(:hover){
+	transition: 0.8s;
+	font-size: 2em;
+}
+#playertext{
+}
+#computertext{
+}
+#resuletext{
+}
+.rock{
+	height: 70px;
+	width: 150px;
+	font-size: 25px;
+}
+.paper{
+	height: 70px;
+	width: 150px;
+	font-size: 25px;
+}
+.scissors{
+	height: 70px;
+	width: 150px;
+	font-size: 25px;
+}
+@media only screen and (max-width: 600px){
+	body{
+		margin-top: 90px;
+	}
+	.made{
+		font-size: 13px;
+		color: gray;
+		margin-top: 90px;
+	}
+}
+@media only screen and (min-width: 900px) and (max-width: 1920px){
+	.made{
+		font-size: 13px;
+		color: gray;
+		margin-top: 174px;
+	}
+}
